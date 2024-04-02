@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Strateges">
+      <UniqueIdentifier>{8d76029d-511d-470c-b53c-f46254564fc7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="fnx_Heck.cpp">
+      <Filter>Strateges</Filter>
+    </ClCompile>
+    <ClCompile Include="fnx_BasicStrategy.cpp">
+      <Filter>Strateges</Filter>
+    </ClCompile>
+    <ClCompile Include="fnx_Angel.cpp">
+      <Filter>Strateges</Filter>
+    </ClCompile>
+    <ClCompile Include="fnx_Random.cpp">
+      <Filter>Strateges</Filter>
+    </ClCompile>
+    <ClCompile Include="fnx_Arena.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="fnx_Joss.cpp">
+      <Filter>Strateges</Filter>
+    </ClCompile>
+    <ClCompile Include="fnx_Fredman.cpp">
+      <Filter>Strateges</Filter>
+    </ClCompile>
+    <ClCompile Include="fnx_Graaskamp.cpp">
+      <Filter>Strateges</Filter>
+    </ClCompile>
+    <ClCompile Include="fnx_TitForTat.cpp">
+      <Filter>Strateges</Filter>
+    </ClCompile>
+    <ClCompile Include="fnx_TitFor2Tat.cpp">
+      <Filter>Strateges</Filter>
+    </ClCompile>
+    <ClCompile Include="fnx_TitForTatMercy.cpp">
+      <Filter>Strateges</Filter>
+    </ClCompile>
+    <ClCompile Include="fnx_Tester.cpp">
+      <Filter>Strateges</Filter>
+    </ClCompile>
+    <ClCompile Include="Dance_L and Dance_R.cpp">
+      <Filter>Strateges</Filter>
+    </ClCompile>
+    <ClCompile Include="fnx_Balance.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fnxService.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="fnx_Heck.h">
+      <Filter>Strateges</Filter>
+    </ClInclude>
+    <ClInclude Include="fnx_BasicStrategy.h">
+      <Filter>Strateges</Filter>
+    </ClInclude>
+    <ClInclude Include="fnx_Angel.h">
+      <Filter>Strateges</Filter>
+    </ClInclude>
+    <ClInclude Include="fnx_Random.h">
+      <Filter>Strateges</Filter>
+    </ClInclude>
+    <ClInclude Include="fnx_Arena.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="fnx_Joss.h">
+      <Filter>Strateges</Filter>
+    </ClInclude>
+    <ClInclude Include="fnx_Fredman.h">
+      <Filter>Strateges</Filter>
+    </ClInclude>
+    <ClInclude Include="fnx_Graaskamp.h">
+      <Filter>Strateges</Filter>
+    </ClInclude>
+    <ClInclude Include="fnx_TitForTat.h">
+      <Filter>Strateges</Filter>
+    </ClInclude>
+    <ClInclude Include="fnx_TitFor2Tat.h">
+      <Filter>Strateges</Filter>
+    </ClInclude>
+    <ClInclude Include="fnx_TitForTatMercy.h">
+      <Filter>Strateges</Filter>
+    </ClInclude>
+    <ClInclude Include="fnx_Tester.h">
+      <Filter>Strateges</Filter>
+    </ClInclude>
+    <ClInclude Include="Dance_L and Dance_R.h">
+      <Filter>Strateges</Filter>
+    </ClInclude>
+    <ClInclude Include="fnx_Balance.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

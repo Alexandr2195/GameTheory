@@ -1,0 +1,2 @@
+#define FNX_CLASS_DEFAULT(CLASS) FNX_CLASS_SETTING(CLASS, =default,=default,=default,=default)
+#define FNX_CLASS_DELETE(CLASS) FNX_CLASS_SETTING(CLASS, =delete,=delete,=delete,=delete)

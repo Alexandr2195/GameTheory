@@ -1,0 +1,16 @@
+
+*.pdb
+*.exe
+*.idb
+*.obj
+*.tlog
+*.log
+*.ilk
+*.recipe
+GameTheory/GameTheory.vcxproj.user
+*.ipch
+*.db
+.vs/GameTheory/v17/.suo
+*.lock
+*.vsidx
+.gitattributes
