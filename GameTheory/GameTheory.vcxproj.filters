@@ -61,7 +61,7 @@
       <Filter>Strateges</Filter>
     </ClCompile>
     <ClCompile Include="fnx_Balance.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Strateges</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -108,7 +108,7 @@
       <Filter>Strateges</Filter>
     </ClInclude>
     <ClInclude Include="fnx_Balance.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Strateges</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

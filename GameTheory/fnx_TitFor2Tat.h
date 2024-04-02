@@ -19,6 +19,5 @@ public:
 private:
     const   fnx_Choice FirstStep    ;
             fnx_Choice llOpChoice   ;
-
 };
 

@@ -203,12 +203,12 @@ void fnx_Arena::PrintResults(void)
 		fnxMessageOut();
 	}
 
-	fnxMessageOut("Name", "\t\t", "LiveCount", "\t", "DeadCount", "\t", "aveCoins", "\t", "aveRounds", "\t", "wins");
+	fnxMessageOut("Name", "\t\t", "LiveCount", "\t", "DeadCount", "\t", "aveCoins", "\t", "aveRounds", "\t", "wins", "\t", "SumCoins");
 
 	for (const auto& [name, datas] : Stats)
 	{
 		const auto& [leve, dead, coins, rounds, count, win] = datas;
-		fnxMessageOut(name, "\t", leve, "\t\t", dead, "\t", (float)coins / (float)count, "\t", (float)rounds / (float)count, "\t", win);
+		fnxMessageOut(name, "\t", leve, "\t\t", dead, "\t", (float)coins / (float)count, "\t", (float)rounds / (float)count, "\t", win, "\t", coins);
 	}
 
 	fnxMessageOut();
